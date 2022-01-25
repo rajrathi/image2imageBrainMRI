@@ -41,7 +41,7 @@ The model also used linear decay learning rate strategy for reducing the learnin
 ## Results
  Following is the gif of training of the model for 200 epochs.
 
-<img src="https://github.com/rajrathi/image2imageBrainMRI/blob/main/cyclegan.gif" alt="training gif" height="100"/>
+<img src="https://github.com/rajrathi/image2imageBrainMRI/blob/main/cyclegan.gif" alt="training gif" height="400"/>
 
  
  
