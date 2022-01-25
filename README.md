@@ -39,9 +39,18 @@ Following are the type of losses used for calculating gradients which are then u
 The model also used linear decay learning rate strategy for reducing the learning rate after a certain epoch to find the optimal minima for the neural network. Model also uses Adam Optimizer for updating weigts and biases. The project is implemented mainly using TensorFlow and various other packages.
 
 ## Results
+ Output image at epoch 1 (Model creating random noise):
+ 
+ <img src="https://github.com/rajrathi/image2imageBrainMRI/blob/main/image_at_epoch_001.png" alt="training gif" height="300"/>
+ 
  Following is the gif of training of the model for 200 epochs.
 
-<img src="https://github.com/rajrathi/image2imageBrainMRI/blob/main/cyclegan.gif" alt="training gif" height="400"/>
+<img src="https://github.com/rajrathi/image2imageBrainMRI/blob/main/cyclegan.gif" alt="training gif" height="300"/>
+
+Final output after training at epoch 200 (Image are converted to Type T1 to Type T2 MRI and vice-versa):
+
+<img src="https://github.com/rajrathi/image2imageBrainMRI/blob/main/image_at_epoch_200.png" alt="training gif" height="300"/>
+
 
  
  
