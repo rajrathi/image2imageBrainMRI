@@ -34,13 +34,13 @@ Following are the type of losses used for calculating gradients which are then u
   <dd> Cycle loss is calculated afte the complete cycle of gererating images using 2 generators (1. real -> fake 2. fake -> real). This loss is calulated between the input image and cycled image using L1 loss function.  </dd>
  <dt> Identity Loss </dt>
   <dd> Identity loss is needed for to check whether the more translation is needed or not, such that if the image is already into desired format, then identity loss should become zero. To calculate identity loss we have used L1 funtion. </dd>
-<\dl>
+</dl>
  
 The model also used linear decay learning rate strategy for reducing the learning rate after a certain epoch to find the optimal minima for the neural network. Model also uses Adam Optimizer for updating weigts and biases. The project is implemented mainly using TensorFlow and various other packages.
 
 ## Results
  Following is the gif of training of the model for 200 epochs.
- ![Epoch gif](https://github.com/rajrathi/image2imageBrainMRI/cyclegan.gif?raw=true)
+ ![Epoch gif](https://github.com/rajrathi/image2imageBrainMRI/blob/main/cyclegan.gif)
  
  
  
