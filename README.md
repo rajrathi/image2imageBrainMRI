@@ -13,7 +13,7 @@ As scanning for multiple type of MRIs for single diagnosis requires time, effort
 
 | Type	| T1 Highlight Style	| T2 Highlight Style |
 | ---- | ------------------ | ------------------ |
-| Water |	Dark	Very | Bright |
+| Water |	Dark |	Very Bright |
 | Fat	| Very Bright	| Dark |
 | Bone |	Dark |	Dark |
 | Muscle |	Intermediate |	Dark |
