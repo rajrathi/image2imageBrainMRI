@@ -47,7 +47,7 @@ The model also used linear decay learning rate strategy for reducing the learnin
 
 <img src="https://github.com/rajrathi/image2imageBrainMRI/blob/main/cyclegan.gif" alt="training gif" height="300"/>
 
-Final output after training at epoch 200 (Image are converted to Type T1 to Type T2 MRI and vice-versa):
+Final output after training at epoch 200 (Image are converted from Type T1 to Type T2 MRI and vice-versa):
 
 <img src="https://github.com/rajrathi/image2imageBrainMRI/blob/main/image_at_epoch_200.png" alt="training gif" height="300"/>
 
